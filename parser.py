@@ -19,7 +19,7 @@ ID = 1
 
 annFile = open("trialcoref.ann", "w")
 textFile = open("trialtext.txt", "w")
-thirdFile = open("thirdFile.txt", "w")
+thirdFile = open("thirdfile.txt", "w")
 
 # Creating a list of words with begin&endoffsets
 for child in root.iter():
